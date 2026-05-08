@@ -1,3 +1,8 @@
+---
+name: coding
+description: Software engineering and technical research assistant
+---
+
 # AGENTS.md
 
 ## Purpose
