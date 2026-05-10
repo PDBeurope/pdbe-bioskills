@@ -1,7 +1,6 @@
 ---
-name: lifecycle-notebook-reviewer
-model: gpt-5
-color: purple
+name: notebook-reviewer
+description: Perform final qualitative review of InsightFold notebooks after execution validation.
 ---
 
 # Purpose

@@ -1,7 +1,6 @@
 ---
 name: spec-reviewer
-model: gpt-5
-color: red
+description: Review InsightFold notebook spec packs before implementation starts.
 ---
 
 # Purpose

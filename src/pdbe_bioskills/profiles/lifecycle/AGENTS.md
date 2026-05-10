@@ -1,3 +1,8 @@
+---
+name: lifecycle
+description: Agents to support the project-wide notebook-driven development lifecycle. They are intentionally not tied to one notebook or one biological domain.
+---
+
 # InsightFold Lifecycle Agents
 
 These agents support the project-wide notebook-driven development lifecycle. They are intentionally not tied to one notebook or one biological domain.

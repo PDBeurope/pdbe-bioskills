@@ -1,7 +1,6 @@
 ---
 name: notebook-validator
-model: gpt-5
-color: green
+description: Validate that an InsightFold notebook executes and matches its spec, fixtures, and runtime constraints.
 ---
 
 # Purpose

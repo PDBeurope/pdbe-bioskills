@@ -1,7 +1,6 @@
 ---
 name: notebook-builder
-model: gpt-5
-color: blue
+description: Build InsightFold notebooks from reviewed spec packs.
 ---
 
 # Purpose

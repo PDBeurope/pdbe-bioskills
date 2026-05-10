@@ -1,7 +1,6 @@
 ---
 name: fixture-curator
-model: gpt-5
-color: orange
+description: Select and document pinned fixtures for InsightFold notebooks.
 ---
 
 # Purpose
