@@ -17,7 +17,7 @@ from pdbe_bioskills.installer import (
 
 app = typer.Typer(
     name="pdbe-bioskills",
-    help="Install Claude Code skills and agent profiles for life sciences.",
+    help="Install agent skills and agent profiles for PDBe analyses or workflows.",
     no_args_is_help=True,
 )
 
