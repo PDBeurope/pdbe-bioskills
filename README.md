@@ -53,7 +53,7 @@ A curated collection of skills and agent profiles, developed by PDBe team, for d
 ### pip (recommended)
 
 ```bash
-pip install pdbe-bioskills
+pip install git+https://github.com/npechl/pdbe-bioskills.git
 ```
 
 Then from any project directory:
