@@ -84,7 +84,7 @@ pdbe-bioskills install --all --claude --global
 ### pipx (isolated global install)
 
 ```bash
-pipx install pdbe-bioskills
+pipx install git+https://github.com/npechl/pdbe-bioskills.git
 pdbe-bioskills list
 ```
 
