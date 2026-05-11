@@ -8,8 +8,6 @@ A curated collection of skills and agent profiles, developed by PDBe team, for d
 
 #### Domain specific
 
-Skills for fetching, computing, and visualising PDBe/AFDB structural data.
-
 | Name | Description |
 |------|-------------|
 | [`afdb-api-fetching`](src/pdbe_bioskills/skills/afdb-api-fetching/SKILL.md) | Retrieve structural and confidence data from the AFDB API, including mmCIF files, PAE matrices, and pLDDT scores |
@@ -25,8 +23,6 @@ Skills for fetching, computing, and visualising PDBe/AFDB structural data.
 | [`validation-against-reference`](src/pdbe_bioskills/skills/validation-against-reference/SKILL.md) | Compare computed metrics against reference implementations, ensuring numerical accuracy within tolerance |
 
 #### Development lifecycle
-
-Skills for planning, building, and reviewing LLM-assisted Jupyter notebook workflows.
 
 | Name | Description |
 |------|-------------|
@@ -47,8 +43,6 @@ Skills for planning, building, and reviewing LLM-assisted Jupyter notebook workf
 
 #### Domain specific
 
-Agents for structural analysis, data retrieval, and scientific interpretation.
-
 | Name | Description |
 |------|-------------|
 | [`3d-beacons-aggregator`](src/pdbe_bioskills/profiles/3d-beacons-aggregator/AGENTS.md) | Aggregate, compare, and rank structural models for a target protein from 3D-Beacons providers |
@@ -66,8 +60,6 @@ Agents for structural analysis, data retrieval, and scientific interpretation.
 | [`visualization-engineer`](src/pdbe_bioskills/profiles/visualization-engineer/AGENTS.md) | Create educational scientific visualizations for homodimer notebooks |
 
 #### Advisory roles
-
-Specialist advisors that challenge decisions from a domain viewpoint. Pair with lifecycle skills.
 
 | Name | Description |
 |------|-------------|
@@ -88,8 +80,6 @@ Specialist advisors that challenge decisions from a domain viewpoint. Pair with 
 | [`wet-lab-liaison`](src/pdbe_bioskills/profiles/wet-lab-liaison/AGENTS.md) | Check whether notebook claims and proposed outputs make sense to experimental scientists |
 
 #### Development lifecycle
-
-Agents that own specific stages of the notebook-driven development workflow.
 
 | Name | Description |
 |------|-------------|
