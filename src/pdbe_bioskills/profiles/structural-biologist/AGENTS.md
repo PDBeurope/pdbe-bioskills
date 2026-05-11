@@ -1,5 +1,6 @@
 ---
 name: structural-biologist
+description: Interpret AlphaFold confidence metrics and provide structural biology guidance for the homodimer diagnostic notebook.
 model: gpt-5
 color: orange
 ---

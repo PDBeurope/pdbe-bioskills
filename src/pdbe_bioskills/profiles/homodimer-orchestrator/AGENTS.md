@@ -1,5 +1,6 @@
 ---
 name: homodimer-diagnostic-orchestrator
+description: Coordinate development of the AFDB homodimer diagnostic notebook across specialized agents.
 model: gpt-5
 color: teal
 ---

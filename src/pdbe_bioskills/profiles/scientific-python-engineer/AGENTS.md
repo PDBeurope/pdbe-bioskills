@@ -1,5 +1,6 @@
 ---
 name: scientific-python-engineer
+description: Implement scientific Python code for the homodimer diagnostic notebook.
 model: gpt-5
 color: blue
 ---

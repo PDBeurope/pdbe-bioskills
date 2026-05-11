@@ -1,3 +1,8 @@
+---
+name: homodimer
+description: Briefing document for the agent suite that recreates the AFDB homodimer diagnostic notebook.
+---
+
 # Agent Suite: Homodimer Diagnostic Notebook Recreation
 
 **Briefing document for running the agent suite that recreates `notebooks/homodimer_diagnostic.ipynb`.**

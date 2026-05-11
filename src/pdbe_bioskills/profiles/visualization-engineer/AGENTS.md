@@ -1,5 +1,6 @@
 ---
 name: visualization-engineer
+description: Create educational scientific visualizations for the homodimer diagnostic notebook.
 model: gpt-5
 color: purple
 ---
