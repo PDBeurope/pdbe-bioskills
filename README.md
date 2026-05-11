@@ -152,7 +152,14 @@ pdbe-bioskills list
 
 ## Contributing
 
-**Add a skill** — create `src/pdbe_bioskills/skills/<name>/SKILL.md` with YAML frontmatter:
+1. Open an issue describing the skill or agent profile you plan to add or change.
+2. Fork the repository and create a branch from `main`.
+3. Add or update a skill or agent profile (see file conventions below).
+4. Open a pull request — the CLI auto-discovers items, so no registry update is needed.
+
+### Adding a skill
+
+Create `src/pdbe_bioskills/skills/<name>/SKILL.md` with YAML frontmatter:
 
 ```markdown
 ---
@@ -163,7 +170,9 @@ description: One-line description of what the skill does
 Skill instructions here...
 ```
 
-**Add an agent profile** — create `src/pdbe_bioskills/profiles/<name>/AGENTS.md` with YAML frontmatter:
+### Adding an agent profile
+
+Create `src/pdbe_bioskills/profiles/<name>/AGENTS.md` with YAML frontmatter:
 
 ```markdown
 ---
@@ -173,8 +182,6 @@ description: One-line description of the agent
 
 Agent instructions here...
 ```
-
-The CLI discovers items automatically — no registry to update.
 
 ## License
 
