@@ -18,9 +18,19 @@
 
 State what is being built, who it is for, what problem it solves, and what success looks like.
 
+### Product Vision
+
+Describe the intended long-term scientific contribution or impact of this notebook.
+
 ## 2. Background And Context
 
 Capture scientific or domain background, current workflow pain point, why this belongs in InsightFold, and relevant prior notebooks, specs, or source modules.
+
+### Existing Solutions / Prior Work
+
+| Solution / Notebook | Strengths | Limitations |
+|---|---|---|
+| | | |
 
 ## 3. Goals
 

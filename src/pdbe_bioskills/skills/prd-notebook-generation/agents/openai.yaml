@@ -1,4 +1,4 @@
 interface:
   display_name: "PRD Notebook Generation"
-  short_description: "Generate the homodimer diagnostic notebook from its PRD/spec."
-  default_prompt: "Generate the homodimer diagnostic notebook from the PRD and spec."
+  short_description: "Orchestrate the full InsightFold lifecycle from an approved PRD to a validated notebook."
+  default_prompt: "Use $prd-notebook-generation to walk this PRD through the full InsightFold pipeline to a validated, reviewed notebook."

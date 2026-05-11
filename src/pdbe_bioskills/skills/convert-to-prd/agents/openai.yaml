@@ -1,4 +1,0 @@
-interface:
-  display_name: "Convert To PRD"
-  short_description: "Scope InsightFold ideas into structured PRDs."
-  default_prompt: "Convert this InsightFold notebook idea into a PRD."

@@ -31,7 +31,6 @@ Skills for planning, building, and reviewing LLM-assisted Jupyter notebook workf
 | Name | Description |
 |------|-------------|
 | [`concept-to-prd`](src/pdbe_bioskills/skills/concept-to-prd/SKILL.md) | Convert scoped InsightFold concepts or advisory-panel notes into a structured life-sciences PRD |
-| [`convert-to-prd`](src/pdbe_bioskills/skills/convert-to-prd/SKILL.md) | Convert rough notebook ideas or planning notes into a structured life-sciences PRD |
 | [`fixture-selection`](src/pdbe_bioskills/skills/fixture-selection/SKILL.md) | Select and document pinned fixtures for InsightFold notebooks |
 | [`idea-scoping-interview`](src/pdbe_bioskills/skills/idea-scoping-interview/SKILL.md) | Guide early concept discovery before PRD writing via a structured scoping interview |
 | [`notebook-assembly`](src/pdbe_bioskills/skills/notebook-assembly/SKILL.md) | Compile modular sections into a cohesive Jupyter notebook with sequential execution and validation outputs |
@@ -40,7 +39,7 @@ Skills for planning, building, and reviewing LLM-assisted Jupyter notebook workf
 | [`notebook-review`](src/pdbe_bioskills/skills/notebook-review/SKILL.md) | Perform final qualitative review of InsightFold notebooks for scientific correctness and reproducibility |
 | [`notebook-spec-review`](src/pdbe_bioskills/skills/notebook-spec-review/SKILL.md) | Review InsightFold notebook spec packs before implementation starts |
 | [`notebook-ux-contract`](src/pdbe_bioskills/skills/notebook-ux-contract/SKILL.md) | Define the first runnable user workflow for a notebook before fixture selection and implementation |
-| [`prd-notebook-generation`](src/pdbe_bioskills/skills/prd-notebook-generation/SKILL.md) | Generate a notebook from the spec using agent workflows |
+| [`prd-notebook-generation`](src/pdbe_bioskills/skills/prd-notebook-generation/SKILL.md) | Orchestrate the full InsightFold lifecycle from an approved PRD to a validated, reviewed notebook |
 | [`prd-to-notebook-spec`](src/pdbe_bioskills/skills/prd-to-notebook-spec/SKILL.md) | Convert an approved InsightFold PRD into an implementation-ready notebook spec pack |
 | [`scoping-decision-capture`](src/pdbe_bioskills/skills/scoping-decision-capture/SKILL.md) | Convert scoping conversations or advisory-panel discussions into a structured decision capture |
 
@@ -129,7 +128,7 @@ pdbe-bioskills install --all --codex
 pdbe-bioskills install --all --claude --codex
 
 # Install specific items by name
-pdbe-bioskills install --claude convert-to-prd coding
+pdbe-bioskills install --claude concept-to-prd coding
 
 # Install globally (available in all projects, goes to $HOME)
 pdbe-bioskills install --all --claude --global
