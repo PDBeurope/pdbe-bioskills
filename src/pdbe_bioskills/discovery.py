@@ -30,7 +30,7 @@ def _parse_frontmatter(path: Path) -> dict[str, str]:
             break
         if ":" in line:
             k, _, v = line.partition(":")
-            result[k.strip()] = v.strip().strip('"')
+            result[k.strip()] = v.strip().strip('"\'')
     return result
 
 

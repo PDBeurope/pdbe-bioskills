@@ -76,11 +76,16 @@ def cmd_install(
         elif choice == "3":
             claude = True
             codex = True
+        elif choice == "1":
+            claude = True
         else:
+            console.print(f"[yellow]Warning:[/yellow] '{choice}' is not a valid choice — defaulting to Claude Code.")
             claude = True
 
     # Resolve item selection
     if all_items:
+        if names:
+            console.print("[yellow]Warning:[/yellow] --all is set; positional name arguments are ignored.")
         selected = items
     elif names:
         name_set = set(names)
@@ -103,13 +108,18 @@ def cmd_install(
             selected = items
         else:
             selected = []
+            seen: set[int] = set()
             for token in raw.split():
                 try:
                     n = int(token)
                     if 1 <= n <= len(items):
-                        selected.append(items[n - 1])
+                        if n not in seen:
+                            seen.add(n)
+                            selected.append(items[n - 1])
+                    else:
+                        console.print(f"[yellow]Warning:[/yellow] '{token}' out of range — skipping.")
                 except ValueError:
-                    pass
+                    console.print(f"[yellow]Warning:[/yellow] '{token}' is not a valid number — skipping.")
 
     if not selected:
         console.print("[yellow]Nothing selected.[/yellow]")
