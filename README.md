@@ -95,6 +95,28 @@ A curated collection of skills and agent profiles, developed by PDBe team, for d
 
 ### skills (recommended)
 
+Documentation for using the `skills` CLI can be found here: https://www.skills.sh/
+
+```bash
+# GitHub shorthand (owner/repo)
+npx skills add vercel-labs/agent-skills
+
+# Full GitHub URL
+npx skills add https://github.com/vercel-labs/agent-skills
+
+# Direct path to a skill in a repo
+npx skills add https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines
+
+# GitLab URL
+npx skills add https://gitlab.com/org/repo
+
+# Any git URL
+npx skills add git@github.com:vercel-labs/agent-skills.git
+
+# Local path
+npx skills add ./my-local-skills
+```
+
 ```bash
 # Add a skill for Claude Code
 npx skills add https://github.com/npechl/pdbe-bioskills/tree/main/skills/afdb-api-fetching -a claude-code
