@@ -93,7 +93,20 @@ A curated collection of skills and agent profiles, developed by PDBe team, for d
 
 ## Installation
 
-### pip (recommended)
+### skills (recommended)
+
+```bash
+# Add a skill for Claude Code
+npx skills add https://github.com/npechl/pdbe-bioskills/tree/main/skills/afdb-api-fetching -a claude-code
+
+# Add a skill for Codex
+npx skills add https://github.com/npechl/pdbe-bioskills/tree/main/skills/afdb-api-fetching -a codex
+
+# Pull the latest skills and profiles from GitHub
+npx skills update
+```
+
+### pip
 
 ```bash
 pip install git+https://github.com/npechl/pdbe-bioskills.git
@@ -136,14 +149,14 @@ pipx install git+https://github.com/npechl/pdbe-bioskills.git
 pdbe-bioskills list
 ```
 
-## Where files are installed
+<!-- ## Where files are installed
 
 | Flag | Destination |
 |------|-------------|
 | `--claude` | Skills → `.claude/commands/<name>.md` · Agents → `.claude/agents/<name>.md` |
 | `--codex` | Skills → `.codex/skills/<name>/` · Agents → `.codex/AGENTS.md` |
 | `--global` | Prepends `$HOME` to the paths above |
-| `--dir PATH` | Uses a custom base directory |
+| `--dir PATH` | Uses a custom base directory | -->
 
 ## Contributing
 
