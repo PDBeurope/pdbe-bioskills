@@ -2,6 +2,9 @@
 
 A curated collection of skills and agent profiles, developed by PDBe team, for developing analyses and workflows of PDBe/structure datasets.
 
+> [!WARNING]  
+> This repository is under active development and may change significantly. Please use it with caution.
+
 ## Available items
 
 ### Skills
