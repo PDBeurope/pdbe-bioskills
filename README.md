@@ -131,7 +131,7 @@ npx skills update
 ### pip
 
 ```bash
-pip install git+https://github.com/npechl/pdbe-bioskills.git
+pip install git+https://github.com/PDBeurope/pdbe-bioskills.git
 ```
 
 Then from any project directory:
